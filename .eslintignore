@@ -1,0 +1,5 @@
+tailwind.config.js
+.next
+yarn.lock
+postcss.config.js
+node_modules

@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #edf6ff;
+  color: #303f60;
+  font-family: "Poppins", sans-serif;
+}
+
+.blue_svg {
+  filter: invert(63%) sepia(85%) saturate(2299%) hue-rotate(180deg) brightness(101%) contrast(101%);
+}
+
+.customLineClamp {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  overflow-wrap: break-word;
+  -webkit-box-orient: vertical;
+}
+
+.customTextRows3 {
+  -webkit-line-clamp: 3;
+}
+
+.customTextRows2 {
+  -webkit-line-clamp: 2;
+}
+
+.customTextRows1 {
+  -webkit-line-clamp: 1;
+}
